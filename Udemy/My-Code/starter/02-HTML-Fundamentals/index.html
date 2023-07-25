@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Basic Language of the WEB: HTML</title>
+  </head>
+
+  <body>
+    <!-- Note: Inside body elements are used ex: <p> or <h1> etc. It is required to structure the page. -->
+    <!-- Info: H1 is Also known as primary Heading
+    Note: Always try to keep only one primary Heading H1
+    -->
+    <!-- <h1>The Basic Language of the WEB: HTML</h1>
+    <h2>The Basic Language of the WEB: HTML</h2>
+    <h3>The Basic Language of the WEB: HTML</h3>
+    <h4>The Basic Language of the WEB: HTML</h4>
+    <h5>The Basic Language of the WEB: HTML</h5>
+    <h6>The Basic Language of the WEB: HTML</h6> -->
+
+    <header>
+      <h1>📘 The Code Magazine</h1>
+
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenges</a>
+        <!-- Note: If no href is specified. It would just display like a normal text in the page. -->
+        <!-- Info: If we use <a href="#"> in an anchor it would point nowhere but it would appear as a link. If we click on it. It goes to the TOP of the page.-->
+        <a href="#">FlexBox</a>
+        <a href="#">CSS Grid</a>
+      </nav>
+    </header>
+
+    <article>
+      <header>
+        <h2>The Basic Language of the WEB: HTML</h2>
+
+        <img
+          src="img/laura-jones.jpg"
+          alt="Headshot of Laura Jones on the screen."
+          width="50"
+          height="50"
+        />
+
+        <!-- Info: We should not use b to bold the text as it is an older style and does not have any symantic HTML. -->
+        <!-- Info: That is why from HTML5 we use strong -->
+        <!-- <p>Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p> -->
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+        <!-- Note: Img is a special kind of element and it does not have a closing tag-->
+        <!-- Info: Attributes are pieces of data which we can use to describe elements. There are many Atributes in Html. -->
+        <!-- @ Few are "src" which means source, "alt" which means Alternative Text, "width" which specifies the width of an image, "height" which specifies the height of the image, etc -->
+        <img
+          src="img/post-img.jpg"
+          alt="HTML code on the screen."
+          width="500"
+          height="200"
+        />
+      </header>
+
+      <p>
+        All modern websites and web applications are built using three
+        <!-- Info: Similarly We should not use i to  the text as it is an older style and does not have any symantic HTML. -->
+        <!-- Info: That is why from HTML5 we use em(emphasize) -->
+        <!-- <i>fundamental</i> -->
+        <em>fundamental</em>
+        technologies:<strong>HTML</strong>,<strong>CSS</strong>
+        and<strong>JavaScript</strong>. These are the languages of the web.
+      </p>
+
+      <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+      </p>
+
+      <h3>What is HTML?</h3>
+
+      <p>
+        HTML stands for<strong>H</strong>yper <strong>T</strong>ext
+        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content
+        of a webpage (not a programming language).
+      </p>
+
+      <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+      </p>
+
+      <p>In HTML, each element is made up of 3 parts:</p>
+      <!-- Info: List with numbers are called as ordered list and ol stands for ordered list. -->
+      <!-- Info: li stands for list items -->
+
+      <ol>
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+      </ol>
+
+      <p>
+        You can learn more at the
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          target="_blank"
+          >MDN Web Docs</a
+        >.
+      </p>
+
+      <h3>Why should you learn HTML?</h3>
+
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+
+      <!-- Info: List with Bullets or in an unordererd manner are called Unordered list and ul stands for unordered list-->
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends To have fun 😃</li>
+      </ul>
+
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </article>
+
+    <aside>
+      <h4>Related posts</h4>
+      <ul>
+        <li>
+          <img
+            src="img/related-1.jpg"
+            alt="Related-1 Image"
+            width="75"
+            height="75"
+          />
+          <a href="#">How to Learn Web Development</a>
+          <p>
+            By <strong><em>Jonas Schmedtmann</em></strong>
+          </p>
+        </li>
+        <li>
+          <img
+            src="img/related-2.jpg"
+            alt="Related-2 Image"
+            width="75"
+            height="75"
+          />
+          <a href="#">The Unknown Power of CSS</a>
+          <p>
+            By <strong><em>Jim Dillon</em></strong>
+          </p>
+        </li>
+        <li>
+          <img
+            src="img/related-3.jpg"
+            alt="Related-3 Image"
+            width="75"
+            height="75"
+          />
+          <a href="#">Why JavaScript is Awesome</a>
+          <p>
+            By <strong><em>Matilda</em></strong>
+          </p>
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      Copyright &copy; 2027 bt The Code Magazine. All rights reserved.
+    </footer>
+  </body>
+</html>
