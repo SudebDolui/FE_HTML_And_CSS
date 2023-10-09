@@ -15,16 +15,16 @@ Imp:- Color Models.
 
 ** RGB Model :- Red, Green and Blue. => Each of the base colors can take a value between 0 to 255, which leads to 16.8 million colors.
  
- * For Red -> 255, 0, 0 (R, G, B)
- * For Green-> 0, 255, 0 (R, G, B)
- * For Blue -> 0, 0, 255 (R, G, B)
+ * For Red -> 255, 0, 0 (R, G, B) = red
+ * For Green-> 0, 255, 0 (R, G, B) = green
+ * For Blue -> 0, 0, 255 (R, G, B) = blue
 
- * For White -> 255, 255, 255 (R, G, B)
- * For Black -> 0, 0, 0 (R, G, B)
+ * For White -> 255, 255, 255 (R, G, B) = white
+ * For Black -> 0, 0, 0 (R, G, B) = black
 
- * For Magenta (Red + Blue) -> 255, 0, 255 (R, G, B)
- * For Yellow (Red + Green) -> 255, 255, 0 (R, G, B)
- * For Cyan (Green + Blue) -> 0, 255, 255 (R, G, B)
+ * For Magenta (Red + Blue) -> 255, 0, 255 (R, G, B) = magenta
+ * For Yellow (Red + Green) -> 255, 255, 0 (R, G, B) = yellow
+ * For Cyan (Green + Blue) -> 0, 255, 255 (R, G, B) = cyan
 
  ** RGB / RGBA Notation :-
 
@@ -608,7 +608,7 @@ nav {
 }
 
 article {
-  width: 900px;
+  width: 825px;
   float: left;
 }
 
@@ -620,3 +620,7 @@ aside {
 footer {
   clear: both;
 }
+
+/* ---> Flex Box <--- */
+
+
