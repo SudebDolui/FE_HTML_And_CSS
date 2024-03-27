@@ -21,7 +21,6 @@
       }
       .el--5 {
         background-color: palevioletred;
-        height: 150px;
       }
       .el--6 {
         background-color: steelblue;
@@ -41,50 +40,7 @@
         margin: 40px;
 
         /* FLEXBOX */
-        display: flex;
-        /* align-items: stretch; */
-        align-items: center;
-        justify-content: flex-start;
-        /* ---> Spacing method 2 */
-        gap: 30px;
       }
-
-      .el {
-        /* ---> Spacing method 1 */
-        /* margin-right: 30px; */ 
-        /* 
-        Default
-
-        flex-grow: 0;
-        flex-shrink: 1;
-        flex-basis: auto;
-        */
-
-        /* flex-basis: 200px;
-        flex-shrink: 0;
-        The below one is a Good Practise and we don't write each of them individually. We instead use the short hand property
-        flex: 0 0 200px; */
-
-        /* flex-grow: 1; */
-
-        flex: 1;
-      }
-
-      .el--1 {
-        align-self: flex-start;
-        /* order: 2; */
-        /* flex-grow: 2; */
-      }
-
-      .el--5 {
-        align-self: stretch;
-        order: 1;
-      }
-
-      .el--6 {
-        order: -1;
-      }
-
     </style>
   </head>
   <body>
