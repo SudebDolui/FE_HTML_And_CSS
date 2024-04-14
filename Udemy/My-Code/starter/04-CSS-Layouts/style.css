@@ -578,7 +578,7 @@ h2::after {
 /* ---> Floats <--- */
 
 .author-img {
-float: left;
+  float: left;
 }
 
 .author {
@@ -603,7 +603,7 @@ nav {
 
 .clearfix::after {
   clear: both;
-  content: '';
+  content: "";
   display: block;
 }
 
@@ -666,5 +666,26 @@ footer {
 
 */
 
+/* Flexbox layout for the project */
 
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0px;
+}
+
+aside {
+  flex: 0 0 300px;
+}
